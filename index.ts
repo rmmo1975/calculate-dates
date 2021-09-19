@@ -60,11 +60,3 @@ class CalculateDates {
 }
 
 export default { DaysOfTheWeek, CalculateDates };
-
-let myDate = CalculateDates.nextDate([DaysOfTheWeek.SATURDAY, DaysOfTheWeek.TUESDAY, DaysOfTheWeek.WEDNESDAY], 'America/Chicago', new Date('2021-09-15T03:00:00.000Z'), '02:00:00.000');
-console.log('date found: ', myDate);
-
-myDate = CalculateDates.nextDate([DaysOfTheWeek.SATURDAY, DaysOfTheWeek.TUESDAY, DaysOfTheWeek.WEDNESDAY], 'America/Los_Angeles', new Date('2021-09-15T03:00:00.000Z'), '02:00:00.000');
-console.log('date found: ', myDate);
-
-
