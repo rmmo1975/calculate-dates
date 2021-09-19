@@ -1,0 +1,19 @@
+{
+  "name": "timezones-datefns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.24.0",
+    "date-fns-tz": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/node": "^16.9.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn index.ts"
+  }
+}
